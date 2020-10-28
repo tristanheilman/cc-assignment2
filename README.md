@@ -11,7 +11,8 @@ Note: In my Dockerfile I have:
 
 This may cause issues, depending on how you mount. If issues persist with the /home directory and my python script, potentially removing this line in the Dockerfile may fix the situation.
 
-3. View output in the console.
+3. In the command prompt run: `docker build -t heilmatn-homework2 .` This should build the image from the Dockerfile provided.
+4. In the command prompt run: `docker run heilmatn-homework2` This should run the image in a container and output the results in the console and logs for the container.
 
 
 
