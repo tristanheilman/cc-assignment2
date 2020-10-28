@@ -9,7 +9,7 @@
 Note: In my Dockerfile I have:
 `COPY home /home`
 
-This may cause issues, depending on how you mount. If issues persist with the /home directory and my python script, please remove this line in the Dockerfile.
+This may cause issues, depending on how you mount. If issues persist with the /home directory and my python script, potentially removing this line in the Dockerfile may fix the situation.
 
 3. View output in the console.
 
