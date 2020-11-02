@@ -18,6 +18,8 @@ fileMostWords = ""
 mostWords = 0
 
 for path, subdirs, files in os.walk("./home/data", topdown=False):
+    files = [ fi for fi in files if fi.endswith(".txt") ]
+
     for filename in files:
         f = os.path.join(path, filename)
 
